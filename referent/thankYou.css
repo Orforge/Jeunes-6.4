@@ -1,0 +1,51 @@
+table[class="bandeau"]{
+	width: 100%;
+	background-color: lightgray;
+	color: white;
+}
+div[class="navbar"]{
+	text-align: center;
+}
+
+li{
+	padding: 10px;
+	background-color: lightgray;
+	display: inline;
+}
+
+a{ 
+ text-decoration:none; 
+}
+
+#taille1{
+	color: lightgray;
+	font-size: 500%;
+	position:relative;
+	float: right;
+	padding-right: 50px;
+}
+#taille2{
+	font-size: 250%;
+	padding-bottom: 10px;
+	padding-right: 42px;
+	float: right;
+}
+
+.jeune{
+	color: rgb(240, 93, 106);
+}
+.referent{
+	color: green;
+}
+.consultant{
+	color: rgb(71, 141, 255);
+}
+.partenaires{
+	color: rgb(90, 93, 95);
+}
+
+.merci{
+	font-size: 40px;
+	text-align: center;
+	opacity: 0.85;
+}

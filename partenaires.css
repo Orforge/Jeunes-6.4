@@ -1,0 +1,90 @@
+table[class="bandeau"]{
+	width: 100%;
+	background-color: lightgray;
+	color: white;
+}
+div[class="navbar"]{
+	text-align: center;
+}
+table{
+	border-collapse: collapse;
+}
+
+.deconnexion{
+	position:relative;
+	float: right;
+}
+
+button{
+	background-color: rgb(240, 93, 106);
+	border: none;
+	color: black;
+	padding: 8px 16px;
+	text-decoration: none;
+	margin: 4px 2px;
+	cursor: pointer;
+	opacity: 0.8;
+	transition: 0.5s;
+}
+
+button:hover{
+	opacity: 1;
+}
+
+li[class="navbar"]{
+	padding: 10px;
+	background-color: lightgray;
+	display: inline;
+}
+li:not([class]){
+	padding: 10px;
+	display: inline;
+}
+li[class="nomarginright"]{
+	margin-right: 0px;
+	display: inline;
+}
+li[class="nomarginleft"]{
+	margin-left: 0px;
+	display: inline;
+}
+
+a{ 
+ text-decoration:none; 
+}
+
+#taille1{
+	color: rgb(90, 93, 95);
+	font-size: 500%;
+	position:relative;
+	float: right;
+	padding-right: 50px;
+}
+
+.jeune{
+	color: rgb(240, 93, 106);
+}
+.referent{
+	color: green;
+}
+.consultant{
+	color: rgb(71, 141, 255);
+}
+.partenaires{
+	background-color: rgb(90, 93, 95);
+	color: white;
+}
+
+.bouton{
+	padding: 5px;
+}
+img:not([src*="logo"][src$=".svg"]){
+	height: 15%;
+	margin-left: 100px;
+}
+p{
+	text-align: center;
+	font-size: 150%;
+	color: grey;
+	padding-right: 20px;
+} 

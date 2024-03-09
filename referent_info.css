@@ -1,0 +1,112 @@
+table[class="bandeau"]{
+	width: 100%;
+	background-color: lightgray;
+	color: white;
+}
+div[class="navbar"]{
+	text-align: center;
+}
+
+.bloc{
+	display: flex;
+	margin-top: 8%;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	padding: 3%;
+}
+
+.case1{
+	width: 22%;
+	border: 1px solid #333;
+	box-shadow: 8px 8px 5px #444;
+	padding: 0% 1%;
+    overflow-wrap: break-word;
+	background-image: linear-gradient(180deg,green, lightgreen);
+}
+  
+.case2{
+	width: 22%;
+	border: 1px solid #333;
+	box-shadow: 8px 8px 5px #444;
+	padding: 0% 1%;
+	background-image: linear-gradient(30deg,lightgreen,green);
+	overflow-wrap: break-word;
+	overflow-inline: auto;
+}
+
+.case3{
+	width: 22%;
+	border: 1px solid #333;
+	box-shadow: 8px 8px 5px #444;
+	padding: 0% 1%;
+	background-image: linear-gradient(150deg,green, lightgreen);
+	overflow-wrap: break-word;
+	overflow-inline: auto;
+}
+
+table{
+	border-collapse: collapse;
+}
+
+.deconnexion{
+	position:relative;
+	float: right;
+}
+
+button{
+	background-color: rgb(240, 93, 106);
+	border: none;
+	color: black;
+	padding: 8px 16px;
+	text-decoration: none;
+	margin: 4px 2px;
+	cursor: pointer;
+	opacity: 0.8;
+	transition: 0.5s;
+}
+
+button:hover{
+	opacity: 1;
+}
+
+li{
+	padding: 10px;
+	background-color: lightgray;
+	display: inline;
+}
+a{
+ text-decoration:none; 
+}
+
+#taille1{
+	color: green;
+	font-size: 500%;
+	position:relative;
+	float: right;
+	padding-right: 50px;
+}
+#taille2{
+	font-size: 250%;
+	float: right;
+	padding-bottom: 10px;
+	margin-right: 50px;
+}
+
+.jeune{
+	color: rgb(240, 93, 106);
+}
+.referent{
+	background-color: green;
+	color: white;
+}
+.consultant{
+	color: rgb(71, 141, 255);
+}
+.partenaires{
+	color: rgb(90, 93, 95);
+}
+
+.bouton{
+	padding: 5px;
+}
+ 
